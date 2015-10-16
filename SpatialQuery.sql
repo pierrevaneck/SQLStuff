@@ -1,5 +1,6 @@
 use EDFacts_Tableau
 
+--Forgot to add this
 ; with cte as (
 select top 100 sch.File_Record_Number RecNum, 
 	sch.School_Address_Location_1 + ',' + sch.School_City_Location + ',' + sch.School_USPS_State_Abbreviation_Location+ ',' + sch.School_ZIP_Code_Location Physical_Address,
